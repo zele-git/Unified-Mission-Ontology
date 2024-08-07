@@ -1,0 +1,176 @@
+Reference,Source Concept,Relational Concept,End Concept,Author
+Rf02,Mission,comprises,Operation,(Gomez et al.)
+Rf02,Operation,comprises,Task,(Gomez et al.)
+Rf02,Task,requires,Capability,(Gomez et al.)
+Rf02,Asset,provides,Capability,(Gomez et al.)
+Rf02,Platform,is-a,Asset,(Gomez et al.)
+Rf02,System ,is-a,Asset,(Gomez et al.)
+Rf02,System ,attached-to,Platform,(Gomez et al.)
+Rf02,Component,is-a,System,(Gomez et al.)
+Rf02,Capability,entails,Capability,(Gomez et al.)
+Rf07,Mission,accomplishes,SoS,"(xing Zhu et al., 2017)"
+Rf07,Mission,has,Time,"(xing Zhu et al., 2017)"
+Rf07,Mission,decomposes,Mission,"(xing Zhu et al., 2017)"
+Rf07,Mission,has,Priority,"(xing Zhu et al., 2017)"
+Rf07,Event,triggers,Mission,"(xing Zhu et al., 2017)"
+Rf07,Mission,concerns,Resource,"(xing Zhu et al., 2017)"
+Rf07,Condition,constraint,Mission,"(xing Zhu et al., 2017)"
+Rf07,Mission,applies,Scenario,"(xing Zhu et al., 2017)"
+Rf07,Mission,achieves,Effect,"(xing Zhu et al., 2017)"
+Rf07,Mission,performs,Emergent,"(xing Zhu et al., 2017)"
+Rf07,Task,accomplished-by,CS,"(xing Zhu et al., 2017)"
+Rf07,Task,realizes,Mission,"(xing Zhu et al., 2017)"
+Rf07,Task,performs,Activity,"(xing Zhu et al., 2017)"
+Rf07,CS,executes,Activity,"(xing Zhu et al., 2017)"
+Rf07,CS,belongs,SystemConf,"(xing Zhu et al., 2017)"
+Rf07,CS,collaborates,CS,"(xing Zhu et al., 2017)"
+Rf07,Emergent,influences,SystemConf,"(xing Zhu et al., 2017)"
+Rf13,Mission,contains,Task,(Smirnov and Stutz)
+Rf13,Task,requires,Capability,(Smirnov and Stutz)
+Rf13,Resource,provides,Capability,(Smirnov and Stutz)
+Rf13,Resource,assigned-to,Task,(Smirnov and Stutz)
+Rf13,Capability,performs,Task,(Smirnov and Stutz)
+Rf05,Mission,composed-of,Task,(Saad et al.)
+Rf05,Mission,composed-of,Location,(Saad et al.)
+Rf05,Mission,composed-of,POI,(Saad et al.)
+Rf05,Environment,composed-of,Event,(Saad et al.)
+Rf05,Environment,composed-of,Object,(Saad et al.)
+Rf05,Actor,composed-of,Human,(Saad et al.)
+Rf05,Actor,composed-of,Robot,(Saad et al.)
+Rf05,Communication ,composed-of,CommDevice,(Saad et al.)
+Rf05,Communication ,composed-of,CommEvent,(Saad et al.)
+Rf05,Actor,has,Task,(Saad et al.)
+Rf05,Actor,has,Location,(Saad et al.)
+Rf05,Actor,has,Device,(Saad et al.)
+Rf05,Actor,has,Message,(Saad et al.)
+Rf01,Mission,supports,Operation,(D’Amico et al.)
+Rf01,Task,supports,Mission,(D’Amico et al.)
+Rf01,Task,precedes,Task,(D’Amico et al.)
+Rf01,Capability,supports,Task,(D’Amico et al.)
+Rf06,Mission,comprises,Operation,(Deitz et al.)
+Rf06,Operation,comprises,Task,(Deitz et al.)
+Rf06,Task ,requires,Capability,(Deitz et al.)
+Rf06,Capability,entails,Capability,(Deitz et al.)
+Rf06,Asset,provides,Capability,(Deitz et al.)
+Rf06,Asset,allocated-to,Task,(Deitz et al.)
+Rf09,SoS,has,Mission,(Martin et al.)
+Rf09,SoS,has,Environment,(Martin et al.)
+Rf09,SoS,has,Stakeholder,(Martin et al.)
+Rf09,SoS,has,Capability,(Martin et al.)
+Rf09,Capability,realizes ,Mission,(Martin et al.)
+Rf09,Mission,composed-of,MissionThread,(Martin et al.)
+Rf09,CapabilityConf,addresses,MissionThread,(Martin et al.)
+Rf09,CapabilityConf,forms,Constellation,(Martin et al.)
+Rf09,Constellation,composed-of,CS,(Martin et al.)
+Rf09,CS,engages-in,Constellation,(Martin et al.)
+Rf09,SoS,aggregates ,Constellation,(Martin et al.)
+Rf09,Capability,composed-of,Capability,(Martin et al.)
+Rf09,Capability,is-a,Resource,(Martin et al.)
+Rf12,Mission,contributes,Mission,(Silva et al.)
+Rf12,Mission,refined-into,Mission,(Silva et al.)
+Rf12,Mission,has,Priority,(Silva et al.)
+Rf12,Mission,has,Trigger,(Silva et al.)
+Rf12,Mission,has,Constraint,(Silva et al.)
+Rf12,Mission,has,Parameter,(Silva et al.)
+Rf12,Mission,refined-into,Task,(Silva et al.)
+Rf12,Task,is-a,Operation,(Silva et al.)
+Rf12,Task,uses,Parameter,(Silva et al.)
+Rf12,Executor,executes,Task,(Silva et al.)
+Rf12,Emergent,related-to,Task,(Silva et al.)
+Rf12,CS,is-a,Executer,(Silva et al.)
+Rf12,SoS,composed-of,CS,(Silva et al.)
+Rf12,SoS,accomplishes,GlobalMission,(Silva et al.)
+Rf12,CS,accomplishes,IndividualMission,(Silva et al.)
+Rf12,CS,collaborates,CS,(Silva et al.)
+Rf12,CS,contributes-to,GlobalMission,(Silva et al.)
+Rf12,CS,has,Connectivity,(Silva et al.)
+Rf12,Connectivity,enables,Cooperation,(Silva et al.)
+Rf12,Cooperation,enables,Emergent,(Silva et al.)
+Rf11,Mission,extends,Mission,(Karag ̈oz)
+Rf11,Role,responsible-for,Mission,(Karag ̈oz)
+Rf11,Role,realizes ,Mission,(Karag ̈oz)
+Rf11,Actor,owns,Role,(Karag ̈oz)
+Rf11,Mission,aggregates,Task,(Karag ̈oz)
+Rf11,Mission,has,State,(Karag ̈oz)
+Rf11,Event,causes,State,(Karag ̈oz)
+Rf11,Mission,has,Objective,(Karag ̈oz)
+Rf11,Metric,measures,Objective,(Karag ̈oz)
+Rf11,Task,realizes,Mission,(Karag ̈oz)
+Rf11,MissionSpace,composed-of,Mission,(Karag ̈oz)
+Rf11,MissionSpace,composed-of,Objective,(Karag ̈oz)
+Rf11,Actor,is-a,Entity,(Karag ̈oz)
+Rf11,Entity,has,State,(Karag ̈oz)
+Rf11,Mission,produces,WorkProduct,(Karag ̈oz)
+Rf11,Mission,uses,WorkProduct,(Karag ̈oz)
+Rf11,WorkProduct,is-a,Entity,(Karag ̈oz)
+Rf11,Entity,composed-of,Capability,(Karag ̈oz)
+Rf11,Entity,composed-of,Attribute,(Karag ̈oz)
+Rf03,MissionPlan,has,Action-plan,(Lane et al.)
+Rf03,ActionPlan,has-requirements-of,Capability,(Lane et al.)
+Rf03,ActionPlan,has-execution-parameters-of,PhysicalEntity,(Lane et al.)
+Rf03,Platform,is-a,Capability,(Lane et al.)
+Rf03,Payload,is-a,Capability,(Lane et al.)
+Rf03,Software,is-a,Capability,(Lane et al.)
+Rf08,Mission,composed-of,Activity,(Bu et al.)
+Rf08,Mission,has,Constraint,(Bu et al.)
+Rf08,Activity,has,Constraint,(Bu et al.)
+Rf08,Activity,composed-of,Precedence,(Bu et al.)
+Rf08,Activity,aggregates,Resource,(Bu et al.)
+Rf10,Mission,has,Target,(Qualls and Russomanno)
+Rf10,Mission,has,Task,(Qualls and Russomanno)
+Rf10,Task,has,Process,(Qualls and Russomanno)
+Rf10,Task,has,Condition,(Qualls and Russomanno)
+Rf10,Condition,has,ObjectOfInterest,(Qualls and Russomanno)
+Rf15,Mission,refined-by ,Activity,(Cherfa et al.)
+Rf15,Mission,refined-into,CompositMission,(Cherfa et al.)
+Rf15,CompositMission,is-a,Mission,(Cherfa et al.)
+Rf15,AtomicMission,is-a,Mission,(Cherfa et al.)
+Rf15,Activity,orders,Action,(Cherfa et al.)
+Rf15,Activity,has,Trigger,(Cherfa et al.)
+Rf15,Activity,has,Constraint,(Cherfa et al.)
+Rf15,Activity,requires,Parameter,(Cherfa et al.)
+Rf15,Role,handles,Action,(Cherfa et al.)
+Rf15,Role,regroups,Capability,(Cherfa et al.)
+Rf15,CS,provides,Capability,(Cherfa et al.)
+Rf15,Mission,associated-to,Measure,(Cherfa et al.)
+Rf15,MissionContext,composed-of,Parameter,(Cherfa et al.)
+Rf15,Role,composed-of,Role,(Cherfa et al.)
+Rf15,Role,interoperates,Role,(Cherfa et al.)
+Rf15,CS ,concretize,Role,(Cherfa et al.)
+Rf15,Role,uses,InteroperabilityMechanism,(Cherfa et al.)
+Rf00,Mission,performs,Operation,Proposed
+Rf00,Process,part-of,Operation,Proposed
+Rf00,Coordination,part-of,Operation,Proposed
+Rf00,System ,takes-part,Coordination,Proposed
+Rf00,Actor,realizes,System,Proposed
+Rf00,System ,composed-of,System,Proposed
+Rf00,Stakeholder,is-a,System,Proposed
+Rf00,Mission,has,Goal,Proposed
+Rf00,Goal,has,Priority,Proposed
+Rf00,Goal,has,Measure,Proposed
+Rf00,Goal,has,Form,Proposed
+Rf00,Goal,has,Target,Proposed
+Rf00,Task,specifies,Goal,Proposed
+Rf00,Condition,constraint,Goal,Proposed
+Rf00,Stakeholder,defines,Goal,Proposed
+Rf00,Capability,fulfills,Task,Proposed
+Rf00,Process,orders,Task,Proposed
+Rf00,Mission,exhibts,Scenario,Proposed
+Rf00,Process,addresses,Scenario,Proposed
+Rf00,Environment,influences,Scenario,Proposed
+Rf00,Scenario,has,Time,Proposed
+Rf00,Scenario,orders,Action,Proposed
+Rf00,Scenario,has,Event,Proposed
+Rf00,Event,influences,Action,Proposed
+Rf00,Scenario,has,Configuration,Proposed
+Rf00,Policy,guides,Scenario,Proposed
+Rf00,Configuration,binds,Action,Proposed
+Rf00,Capability,allocated-to,Configuration,Proposed
+Rf00,Actor,provides,Capability,Proposed
+Rf00,Actor,takes-part,Configuration,Proposed
+Rf00,Mission,situates,Environment,Proposed
+Rf00,Infrastracture,is-a,Environment,Proposed
+Rf00,Geolocation,is-a,Environment,Proposed
+Rf00,Organization,is-a,Environment,Proposed
+Rf00,Organization,specifies,Policy,Proposed
+Rf00,Condition,is-a,Environment,Proposed
